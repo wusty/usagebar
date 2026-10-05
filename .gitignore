@@ -1,0 +1,20 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+
+# Built app bundle (we ship sources, not binaries)
+*.app
+
+# macOS metadata
+.DS_Store
